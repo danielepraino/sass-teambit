@@ -1,0 +1,82 @@
+.quote {
+  background-color: $second-bg-color;
+  @include flex();
+
+  .quote-container {
+    position: relative;
+    @include flex();
+    flex-flow: column;
+
+    .quote-title {
+      width: 480px;
+      font-size: 30px;
+    }
+
+    .quote-buttons {
+      margin: 50px 0;
+
+      span {
+        color: $second-text-color;
+        margin: 0 10px;
+      }
+
+      .adress {
+        text-align: center;
+        margin-top: 25px;
+
+        span {
+          color: $main-text-color;
+        }
+      }
+    }
+  }
+}
+
+.quote-sign {
+  color: $main-text-hover;
+  font-size: 40px;
+  position: absolute;
+  top: 155px;
+  left: 0;
+}
+
+.quote-space {
+  width: 550px;
+  background-color: #FFF;
+  border-radius: 10px;
+  border: 1px solid $second-text-color;
+  padding: 20px 40px;
+
+  p {
+    margin-bottom: 30px;
+  }
+
+  .quote-founders {
+    @include flex(flex-start);
+
+    .quote-imgs {
+
+      img {
+        height: 40px;
+        margin-right: 10px;
+      }
+    }
+
+    .quote-names {
+      @include flex(center, center, flex-start);
+      flex-flow: column;
+
+      span {
+
+        &:first-child {
+          color: $main-text-hover;
+          margin-bottom: 5px;
+        }
+
+        &:last-child {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

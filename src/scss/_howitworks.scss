@@ -2,7 +2,7 @@
   @include flex();
 
   .howitworks {
-    width: 90%;
+    width: 80%;
     @include flex();
     flex-flow: column;
   }
@@ -13,18 +13,38 @@
   margin: 100px 0;
   @include flex();
 
-  .howitworks-screenshot {
+  .howitworks-feature {
+    width: 400px;
+    @include flex(center, center, flex-start);
+    flex-flow: column;
 
-    img {
-      height: 450px;
+    h2 {
+      font-size: 26px;
+    }
+
+    p, a {
+      font-size: 22px;
+    }
+
+    a {
+      color: $main-text-hover;
+      margin-bottom: 40px;
+    }
+
+    .howitworks-img {
+      @include flex();
+      align-self: center;
+
+      img {
+        width: 270px;
+      }
     }
   }
 
-  .howitworks-feature {
-    @include flex(center, center, flex-start);
-    flex-flow: column;
+  .howitworks-screenshot {
+
     img {
-      height: 200px;
+      width: 768px;
     }
   }
 }

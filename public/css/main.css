@@ -4923,7 +4923,7 @@ header .head-container {
 }
 
 .howitworks-container .howitworks {
-  width: 90%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -4940,11 +4940,8 @@ header .head-container {
   align-items: center;
 }
 
-.howitworks-learn .howitworks-screenshot img {
-  height: 450px;
-}
-
 .howitworks-learn .howitworks-feature {
+  width: 400px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -4952,8 +4949,34 @@ header .head-container {
   flex-flow: column;
 }
 
-.howitworks-learn .howitworks-feature img {
-  height: 200px;
+.howitworks-learn .howitworks-feature h2 {
+  font-size: 26px;
+}
+
+.howitworks-learn .howitworks-feature p,
+.howitworks-learn .howitworks-feature a {
+  font-size: 22px;
+}
+
+.howitworks-learn .howitworks-feature a {
+  color: #30488f;
+  margin-bottom: 40px;
+}
+
+.howitworks-learn .howitworks-feature .howitworks-img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.howitworks-learn .howitworks-feature .howitworks-img img {
+  width: 270px;
+}
+
+.howitworks-learn .howitworks-screenshot img {
+  width: 768px;
 }
 
 .howitworks-learn.left {
@@ -4968,6 +4991,95 @@ header .head-container {
   justify-content: flex-end;
   align-content: center;
   align-items: center;
+}
+
+.quote {
+  background-color: #ffe7d2;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.quote .quote-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.quote .quote-container .quote-title {
+  width: 480px;
+  font-size: 30px;
+}
+
+.quote .quote-container .quote-buttons {
+  margin: 50px 0;
+}
+
+.quote .quote-container .quote-buttons span {
+  color: #bdb5af;
+  margin: 0 10px;
+}
+
+.quote .quote-container .quote-buttons .adress {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.quote .quote-container .quote-buttons .adress span {
+  color: #58402c;
+}
+
+.quote-sign {
+  color: #30488f;
+  font-size: 40px;
+  position: absolute;
+  top: 155px;
+  left: 0;
+}
+
+.quote-space {
+  width: 550px;
+  background-color: #FFF;
+  border-radius: 10px;
+  border: 1px solid #bdb5af;
+  padding: 20px 40px;
+}
+
+.quote-space p {
+  margin-bottom: 30px;
+}
+
+.quote-space .quote-founders {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+
+.quote-space .quote-founders .quote-imgs img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.quote-space .quote-founders .quote-names {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
+  flex-flow: column;
+}
+
+.quote-space .quote-founders .quote-names span:first-child {
+  color: #30488f;
+  margin-bottom: 5px;
+}
+
+.quote-space .quote-founders .quote-names span:last-child {
+  font-size: 12px;
 }
 
 body {
