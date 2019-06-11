@@ -5082,6 +5082,61 @@ header .head-container {
   font-size: 12px;
 }
 
+footer {
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+footer .footer-container {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
+}
+
+footer .footer-container .footer-teambit {
+  width: 400px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+footer .footer-container .footer-teambit i {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+footer .footer-container .footer-teambit h4 {
+  font-size: 20px;
+}
+
+footer .footer-container .footer-teambit h4 a {
+  color: #30488f;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
+}
+
+.footer-link .footer-ul ul {
+  width: 140px;
+  margin-right: 10px;
+  padding: 0;
+}
+
+.footer-link .footer-ul ul li {
+  margin-bottom: 10px;
+}
+
 body {
   font-family: "PT Sans", sans-serif;
   color: #58402c;
