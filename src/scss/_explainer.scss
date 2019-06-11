@@ -1,0 +1,54 @@
+.explainer-container {
+  background-color: $second-bg-color;
+  @include flex();
+
+  .explainer {
+    width: $main-width;
+    @include flex();
+    flex-direction: column;
+
+    .process {
+      @include flex();
+      flex-direction: column;
+
+      &:first-child {
+        border-bottom: 1px solid $second-text-color;
+
+        .process-bigimg {
+          margin: 50px 0;
+        }
+      }
+
+      .process-title{
+        margin: 50px 0;
+      }
+    }
+  }
+}
+
+.process-boxes {
+  @include flex();
+
+  .box {
+    width: 33.3%;
+    text-align: center;
+    margin: 0 5%;
+    @include flex();
+    flex-direction: column;
+
+    img {
+      height: 100px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+.process-bigimg {
+  margin-top: 50px;
+  img {
+    height: 300px;
+  }
+}

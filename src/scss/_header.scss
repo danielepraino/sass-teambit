@@ -1,10 +1,11 @@
 header {
   height: $main-height;
+  margin-bottom: 100px;
   @include flex();
 
   .head-container {
     width: $main-width;
-    display: flex;
+    @include flex();
 
   }
 }
@@ -22,7 +23,7 @@ header {
 
   .head-buttons {
     span {
-      color: #bdb5af;
+      color: $second-text-color;
       margin: 0 10px;
     }
   }

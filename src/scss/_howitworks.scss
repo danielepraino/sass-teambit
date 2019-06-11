@@ -1,0 +1,38 @@
+.howitworks-container {
+  @include flex();
+
+  .howitworks {
+    width: 90%;
+    @include flex();
+    flex-flow: column;
+  }
+}
+
+.howitworks-learn {
+  width: 100%;
+  margin: 100px 0;
+  @include flex();
+
+  .howitworks-screenshot {
+
+    img {
+      height: 450px;
+    }
+  }
+
+  .howitworks-feature {
+    @include flex(center, center, flex-start);
+    flex-flow: column;
+    img {
+      height: 200px;
+    }
+  }
+}
+
+.howitworks-learn.left {
+  @include flex(flex-start);
+}
+
+.howitworks-learn.right {
+  @include flex(flex-end);
+}
