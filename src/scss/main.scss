@@ -1,2 +1,33 @@
 @import "../../node_modules/@fortawesome/fontawesome-free/css/all.css";
 @import "../../node_modules/normalize.css/normalize.css";
+@import "src/scss/_variables.scss";
+@import "src/scss/_mixin.scss";
+@import "src/scss/_nav.scss";
+@import "src/scss/_header.scss";
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  color: $main-text-color;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: $main-text-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $main-text-hover;
+  }
+
+}
+
+.btn {
+  @include button($button-text-color, $button-bg-color, $button-bg-color);
+
+  &:hover {
+    @include button($button-text-color, $button-bg-hover, $button-bg-hover);
+  }
+}

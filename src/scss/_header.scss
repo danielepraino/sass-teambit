@@ -1,0 +1,45 @@
+header {
+  height: $main-height;
+  @include flex();
+
+  .head-container {
+    width: $main-width;
+    display: flex;
+
+  }
+}
+
+.head-left {
+  margin-right: 50px;
+
+  .head-titles {
+    font-size: 25px;
+
+    p {
+      margin-bottom: 50px;
+    }
+  }
+
+  .head-buttons {
+    span {
+      color: #bdb5af;
+      margin: 0 10px;
+    }
+  }
+
+  .adress {
+    margin-top: 30px;
+    span {
+      color: $main-text-color;
+    }
+  }
+}
+
+
+.head-right {
+
+  img {
+    width: 600px;
+  }
+
+}

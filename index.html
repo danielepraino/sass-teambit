@@ -3,40 +3,53 @@
   <head>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="public/css/main.css">
     <title>sass-teambit</title>
   </head>
   <body>
     <div class="container">
       <nav>
-        <div class="logo"><i class="far fa-smile"></i><span> Teambit</span></div>
-        <div class="menu">
-          <ul>
-            <li><a href="#">Solutions <i class="fas fa-caret-down"></i></a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Sign in</a></li>
-          </ul>
-          <a href="#"><i class="fab fa-google"></i> Sign up</a>
+        <div class="nav-container">
+          <div class="logo"><i class="far fa-smile"></i><span> Teambit</span></div>
+          <div class="menu">
+            <ul>
+              <li><a href="#">Solutions <i class="fas fa-caret-down"></i></a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Sign in</a></li>
+            </ul>
+            <a class="nav" href="#"><i class="fab fa-google"></i> Sign up</a>
+          </div>
         </div>
       </nav>
       <header>
-        <div class="head-left">
-          <div class="head-titles">
-            <h1>Understand, recognize and develop your people</h1>
-            <h4>Teambit helps teams create a high performing culture with regular feedback.</h4>
+        <div class="head-container">
+          <div class="head-left">
+            <div class="head-titles">
+              <h1>Understand, recognize and develop your people</h1>
+              <p>Teambit helps teams create a high performing culture with regular feedback.</p>
+            </div>
+            <div class="head-buttons">
+              <a class="btn" href="#"><i class="fab fa-google"></i> Sign up with Google</a>
+              <span>or</span>
+              <a class="btn" href="#"><i class="fab fa-slack"></i> Sign up with Slack</a>
+              <div class="adress">
+                <span>or use your email address <i class="fas fa-arrow-right"></i></span>
+              </div>
+            </div>
           </div>
-          <div class="head-buttons">
-            <a href="#"><i class="fab fa-google"></i> Sign up with Google</a>
-            <span>or</span>
-            <a href="#"><i class="fab fa-slack"></i> Sign up with Slack</a>
-            <span>or use your email address <i class="fas fa-arrow-right"></i></span>
+          <div class="head-right">
+            <img src="src/img/illustration-main.jpg" alt="team">
           </div>
-        </div>
-        <div class="head-right">
-          <img src="src/img/illustration-main.jpg" alt="team">
         </div>
       </header>
+
+      <div class="explainer-container">
+        <div class="explainer">
+          
+        </div>
+      </div>
 
     </div>
 

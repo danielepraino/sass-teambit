@@ -1,0 +1,14 @@
+@mixin flex($just-content: center, $al-content: center, $al-items: center) {
+  display: flex;
+  justify-content: $just-content;
+  align-content: $al-content;
+  align-items: $al-items;
+}
+
+@mixin button($text-color, $bg-color, $border-color) {
+  color: $text-color;
+  background-color: $bg-color;
+  border-radius: 5px;
+  border: 1px solid $border-color;
+  padding: 8px 15px;
+}

@@ -4730,5 +4730,145 @@ template {
 [hidden] {
   display: none;
 }
+nav {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
 
+nav .nav-container {
+  width: 60%;
+  border-bottom: 1px solid #58402c;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+nav .nav-container .logo {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+nav .nav-container .logo span {
+  margin-left: 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.menu ul li {
+  margin-right: 40px;
+}
+
+.menu .nav {
+  color: #30488f;
+  background-color: #FFF;
+  border-radius: 5px;
+  border: 1px solid #30488f;
+  padding: 8px 15px;
+}
+
+.menu .nav:hover {
+  color: #FFF;
+  background-color: #30488f;
+  border-radius: 5px;
+  border: 1px solid #30488f;
+  padding: 8px 15px;
+}
+
+header {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+header .head-container {
+  width: 60%;
+  display: flex;
+}
+
+.head-left {
+  margin-right: 50px;
+}
+
+.head-left .head-titles {
+  font-size: 25px;
+}
+
+.head-left .head-titles p {
+  margin-bottom: 50px;
+}
+
+.head-left .head-buttons span {
+  color: #bdb5af;
+  margin: 0 10px;
+}
+
+.head-left .adress {
+  margin-top: 30px;
+}
+
+.head-left .adress span {
+  color: #58402c;
+}
+
+.head-right img {
+  width: 600px;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  color: #58402c;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #58402c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #30488f;
+}
+
+.btn {
+  color: #FFF;
+  background-color: #30488f;
+  border-radius: 5px;
+  border: 1px solid #30488f;
+  padding: 8px 15px;
+}
+
+.btn:hover {
+  color: #FFF;
+  background-color: #233569;
+  border-radius: 5px;
+  border: 1px solid #233569;
+  padding: 8px 15px;
+}
 

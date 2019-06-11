@@ -1,0 +1,42 @@
+nav {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 20px 0;
+  @include flex();
+
+  .nav-container {
+    width: $main-width;
+    border-bottom: 1px solid $main-text-color;
+    padding-bottom: 20px;
+    @include flex(space-between);
+
+    .logo {
+      font-size: 22px;
+      @include flex();
+
+      span {
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+.menu {
+  @include flex();
+
+  ul {
+    @include flex();
+
+    li {
+      margin-right: 40px;
+    }
+  }
+
+  .nav {
+    @include button($main-text-hover, $nav-button-bg-color, $button-bg-color);
+
+    &:hover {
+      @include button($button-text-color, $button-bg-color, $button-bg-color);
+    }
+  }
+}
